@@ -83,3 +83,42 @@ CSVs in data/
 Plots in plots/
 
 Console logs with metrics and statistics
+
+
+Prerequisites
+
+Python 3.10+ and:
+
+pip install -r requirements.txt
+
+
+Typical requirements:
+
+yfinance
+pandas
+numpy
+matplotlib
+scipy
+scikit-learn
+xgboost   # optional, used if installed
+
+Execution Order
+
+From project root:
+
+python src/data_collection.py
+python src/portfolio_returns.py
+python src/var_engine.py
+python src/backtesting.py
+python src/optimization.py
+python src/ml_models.py
+python src/visualizations.py
+
+
+Outputs:
+
+CSVs in data/
+
+Plots in plots/
+
+Console logs with metrics and statistics
